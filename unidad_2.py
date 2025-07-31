@@ -6,15 +6,15 @@
 #  * - Crea ejemplos utilizando todos los tipos de operadores de tu lenguaje:
 #  *   Aritméticos, logicos, de comparacion, asignacion, identidad, pertenencia, bits...
 #  *   (Ten en cuenta que cada lenguaje puede poseer unos diferentes)
-#  * - Utilizando las operaciones con operadores que tú quieras, crea ejemplos
+#  * - Utilizando las operaciones con operadores que tu quieras, crea ejemplos
 #  *   que representen todos los tipos de estructuras de control que existan
 #  *   en tu lenguaje:
 #  *   Condicionales, iterativas, excepciones...
 #  * - Debes hacer print por consola del resultado de todos los ejemplos.
 #  *
 #  * DIFICULTAD EXTRA (opcional):
-#  * Crea un programa que imprima por consola todos los números comprendidos
-#  * entre 10 y 55 (incluidos), pares, y que no son ni el 16 ni múltiplos de 3.
+#  * Crea un programa que imprima por consola todos los numeros comprendidos
+#  * entre 10 y 55 (incluidos), pares, y que no son ni el 16 ni multiplos de 3.
 #  *
 #  * Seguro que al revisar detenidamente las posibilidades has descubierto algo nuevo.
 #  */
@@ -150,4 +150,97 @@ print("NUMERO_A in numeros:", NUMERO_A in numeros)
 
 # NOT IN
 print("NUMERO_B not in numeros:", NUMERO_B not in numeros)
+# -----------------------------------------------------------------------------------
+
+# -----------------------------------------------------------------------------------
+# Condicionales:
+# IF, ELIF, ELSE
+
+EDAD = 20
+
+if EDAD < 13:
+    print("Niño")
+elif EDAD < 18:
+    print("Adolescente")
+else:
+    print("Adulto")
+
+# CONDICIONAL DE UNA SOLA LINEA
+MENSAJE = "Mayor de edad" if EDAD >= 18 else "Menor de edad"
+print(MENSAJE)
+
+# -----------------------------------------------------------------------------------
+
+# -----------------------------------------------------------------------------------
+# Iterativas:
+# FOR CON RANGO
+SUMA = 0
+for i in range(1, 11):
+    if i % 2 == 0:
+        SUMA += i
+print("Suma de pares:", SUMA)
+
+# WHILE
+CONTADOR = 5
+
+while CONTADOR > 0:
+    print("Contando hacia atras:", CONTADOR)
+    CONTADOR -= 1
+
+# BREAK Y CONTINUE
+for i in range(1, 11):
+    if i == 5:
+        continue  # Salta el 5
+    if i == 8:
+        break     # Se detiene en el 8
+    print(i)
+
+# -----------------------------------------------------------------------------------
+
+# -----------------------------------------------------------------------------------
+# Manejo de excepciones:
+
+# Division entre dos numeros con manejo de errores
+A = 10
+B = 0
+
+try:
+    resultado = A / B
+except ZeroDivisionError:
+    print("Error: No se puede dividir por cero")
+else:
+    print("Resultado:", resultado)
+finally:
+    print("Operacion finalizada.")
+# -----------------------------------------------------------------------------------
+
+# -----------------------------------------------------------------------------------
+# Match y case:
+
+COMANDO = "salir"
+
+match COMANDO:
+    case "iniciar":
+        print("Iniciando sistema...")
+    case "detener":
+        print("Deteniendo sistema...")
+    case "salir":
+        print("Saliendo...")
+    case _:
+        print("Comando no reconocido")
+# -----------------------------------------------------------------------------------
+
+# -----------------------------------------------------------------------------------
+# DIFICULTAD EXTRA: Numeros comprendidos entre 10 y 55,
+# pares, no son ni el 16 ni multiplos de 3.
+
+for i in range(10, 56):
+    if i % 2 != 0:
+        continue
+    elif i % 3 == 0:
+        continue
+    elif i == 16:
+        continue
+    else:
+        print("El valor de 'i' es: ", i)
 # -----------------------------------------------------------------------------------
