@@ -20,9 +20,9 @@
  *
  * ¿Fácil? No te preocupes, recuerda que esta es una ruta de estudio y
  * debemos comenzar por el principio.
- * /------------------------------------------------------------------------------
+ * /-------------------------------------------------------------------------------------------------
 
- /*
+/*
  * UNIDAD II:
  * - Crea ejemplos utilizando todos los tipos de operadores de tu lenguaje:
  *   Aritméticos, lógicos, de comparación, asignación, identidad, pertenencia, bits...
@@ -38,7 +38,7 @@
  * entre 10 y 55 (incluidos), pares, y que no son ni el 16 ni múltiplos de 3.
  *
  * Seguro que al revisar detenidamente las posibilidades has descubierto algo nuevo.
-* /------------------------------------------------------------------------------
+ * /-------------------------------------------------------------------------------------------------
 
 /*
  * UNIDAD 3:
@@ -61,9 +61,9 @@
  *
  * Presta especial atención a la sintaxis que debes utilizar en cada uno de los casos.
  * Cada lenguaje sigue una convenciones que debes de respetar para que el código se entienda.
-* /------------------------------------------------------------------------------
+ * /-------------------------------------------------------------------------------------------------
 
- /*
+/*
  * UNIDAD 4:
  * - Muestra ejemplos de creación de todas las estructuras soportadas por defecto
  *   en tu lenguaje.
@@ -79,4 +79,20 @@
  * - El programa no puede dejar introducir números de teléfono no numéricos y con más
  *   de 11 dígitos (o el número de dígitos que quieras).
  * - También se debe proponer una operación de finalización del programa.
-* /------------------------------------------------------------------------------
+ * /-------------------------------------------------------------------------------------------------
+
+/*
+ * UNIDAD 5:
+ * Muestra ejemplos de todas las operaciones que puedes realizar con cadenas de caracteres
+ * en tu lenguaje. Algunas de esas operaciones podrían ser (busca todas las que puedas):
+ * - Acceso a caracteres específicos, subcadenas, longitud, concatenación, repetición,
+ *   recorrido, conversión a mayúsculas y minúsculas, reemplazo, división, unión,
+ *   interpolación, verificación...
+ *
+ * DIFICULTAD EXTRA (opcional):
+ * Crea un programa que analice dos palabras diferentes y realice comprobaciones
+ * para descubrir si son:
+ * - Palíndromos
+ * - Anagramas
+ * - Isogramas
+ * /-------------------------------------------------------------------------------------------------
