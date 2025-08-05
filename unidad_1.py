@@ -23,25 +23,34 @@
 #  * ¿Fácil? No te preocupes, recuerda que esta es una ruta de estudio y
 #  * debemos comenzar por el principio.
 
-#
+# -----------------------------------------------------------------------------------
 # Pagina oficial de python: https://www.python.org
+# -----------------------------------------------------------------------------------
 
+# -----------------------------------------------------------------------------------
 # Para hacer comentarios simples de una sola linea se utiliza en numeral '#'.
 # Para hacer comentarios de multiples lineas ''' Comentario multiples
 # lineas ''' se utilizan tres comillas simples.
 # Este tipo de comentario de varias lineas tambien se utiliza como
 # docstring, para comentar funciones, clases, etc.
+# -----------------------------------------------------------------------------------
 
+# -----------------------------------------------------------------------------------
 # Para las variables se utiliza snake_case
 NOMBRE_COMPLETO = "Ivan Ezequiel Thoux"  # Deberia ser nombre_completo
 # Para las variables se recomienda escribir el nombre en minusculas
+# -----------------------------------------------------------------------------------
 
+# -----------------------------------------------------------------------------------
 # Para las constantes se recomiendo escribir el nombre en mayusculas
 VALOR_PI = 3.1416
+# -----------------------------------------------------------------------------------
 
+# -----------------------------------------------------------------------------------
 # Para las clases se recomienda utilizar CamelCase
+# -----------------------------------------------------------------------------------
 
-
+# -----------------------------------------------------------------------------------
 # Tipos de datos en python:
 
 # Dato de tipo entero
@@ -62,9 +71,14 @@ SALUDO = "Buenos dias"
 
 # Dato de tipo nulo o sin valor
 RESULTADO = None
+# -----------------------------------------------------------------------------------
 
+# -----------------------------------------------------------------------------------
 # Existe la funcion type(constante/variable) que nos permite determinar el
 # tipo de dato de una constante/variable.
+# -----------------------------------------------------------------------------------
 
+# -----------------------------------------------------------------------------------
 # Imprimimos un saludo para finalizar la consigna:
 print("Hola mundo.")
+# -----------------------------------------------------------------------------------
