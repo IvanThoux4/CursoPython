@@ -16,7 +16,7 @@
 #  *   impresora compartida que recibe documentos y los imprime cuando así se le indica.
 #  *   La palabra "imprimir" imprime un elemento de la cola, el resto de palabras se
 #  *   interpretan como nombres de documentos.
-#  * /-------------------------------------------------------------------------------------------------
+#  * /--------------------------------------------------------------------------------------------
 
 # -----------------------------------------------------------------------------------
 # PILAS
@@ -68,6 +68,7 @@ if cola:
 
 # Navegador web simulado con pila
 def navegador_web():
+    """Simula un navegador web con funcionalidades de adelante/atrás usando una pila."""
     historial = []
     utilizado = 0
 
@@ -89,7 +90,6 @@ def navegador_web():
                 historial.append(pagina_atras)
             else:
                 print("No hay páginas adelante en el historial.")
-                pass
         else:
             historial.append(accion)
 
@@ -110,12 +110,14 @@ navegador_web()
 # Impresora compartida simulada con cola
 
 def cola_de_impresion():
-
+    """Simula una cola de impresión compartida."""
     cola_impresion = []
 
     while True:
-        accion = input(
-            "Ingrese un documento para imprimir, 'imprimir' para imprimir el siguiente documento o 'salir' para salir: ")
+        print("Ingrese 'imprimir' para imprimir el siguiente documento")
+        print("Ingrese 'salir' para salir de la cola de impresión")
+        print("Ingrese el nombre del documento para agregarlo a la cola")
+        accion = input(">>").strip().lower()
 
         if accion == "salir":
             print("Saliendo de la cola de impresion.")
