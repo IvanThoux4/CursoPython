@@ -1,4 +1,4 @@
-/* UNIDAD I:
+/* UNIDAD I: SINTAXIS, VARIABLES, TIPOS DE DATOS Y HOLA MUNDO!
  * ¿Preparad@ para aprender o repasar el lenguaje de programación que tú quieras?
  * - Recuerda que todas las instrucciones de participación están en el
  *   repositorio de GitHub.
@@ -23,7 +23,7 @@
  * /-------------------------------------------------------------------------------------------------
 
 /*
- * UNIDAD II:
+ * UNIDAD II: OPERADORES Y ESTRUCTURAS DE CONTROL
  * - Crea ejemplos utilizando todos los tipos de operadores de tu lenguaje:
  *   Aritméticos, lógicos, de comparación, asignación, identidad, pertenencia, bits...
  *   (Ten en cuenta que cada lenguaje puede poseer unos diferentes)
@@ -41,7 +41,7 @@
  * /-------------------------------------------------------------------------------------------------
 
 /*
- * UNIDAD 3:
+ * UNIDAD 3: FUNCIONES Y ALCANCE
  * - Crea ejemplos de funciones básicas que representen las diferentes
  *   posibilidades del lenguaje:
  *   Sin parámetros ni retorno, con uno o varios parámetros, con retorno...
@@ -64,7 +64,7 @@
  * /-------------------------------------------------------------------------------------------------
 
 /*
- * UNIDAD 4:
+ * UNIDAD 4: ESTRUCTURAS DE DATOS
  * - Muestra ejemplos de creación de todas las estructuras soportadas por defecto
  *   en tu lenguaje.
  * - Utiliza operaciones de inserción, borrado, actualización y ordenación.
@@ -82,7 +82,7 @@
  * /-------------------------------------------------------------------------------------------------
 
 /*
- * UNIDAD 5:
+ * UNIDAD 5: CADENAS DE CARACTERES
  * Muestra ejemplos de todas las operaciones que puedes realizar con cadenas de caracteres
  * en tu lenguaje. Algunas de esas operaciones podrían ser (busca todas las que puedas):
  * - Acceso a caracteres específicos, subcadenas, longitud, concatenación, repetición,
@@ -98,7 +98,7 @@
  * /-------------------------------------------------------------------------------------------------
 
 /*
- * UNIDAD 6:
+ * UNIDAD 6: VALOR Y REFERENCIA
  * - Muestra ejemplos de asignación de variables "por valor" y "por referencia", según
  *   su tipo de dato.
  * - Muestra ejemplos de funciones con variables que se les pasan "por valor" y 
@@ -117,7 +117,7 @@
  * /-------------------------------------------------------------------------------------------------
 
 /*
- * UNIDAD 7:
+ * UNIDAD 7: PILAS Y COLAS
  * Implementa los mecanismos de introducción y recuperación de elementos propios de las
  * pilas (stacks - LIFO) y las colas (queue - FIFO) utilizando una estructura de array
  * o lista (dependiendo de las posibilidades de tu lenguaje).
@@ -135,7 +135,7 @@
  * /-------------------------------------------------------------------------------------------------
 
 /*
- * UNIDAD 8:
+ * UNIDAD 8: RECURSIVIDAD
  * Entiende el concepto de recursividad creando una función recursiva que imprima
  * números del 100 al 0.
  *
@@ -147,7 +147,7 @@
  * /-------------------------------------------------------------------------------------------------
 
 /*
- * UNIDAD 9:
+ * UNIDAD 9: CLASES
  * Explora el concepto de clase y crea un ejemplo que implemente un inicializador,
  * atributos y una función que los imprima (teniendo en cuenta las posibilidades
  * de tu lenguaje).
@@ -162,7 +162,7 @@
  * /-------------------------------------------------------------------------------------------------
 
 /*
- * UNIDAD 10:
+ * UNIDAD 10: HERENCIA Y POLIMORFISMO
  * Explora el concepto de herencia según tu lenguaje. Crea un ejemplo que
  * implemente una superclase Animal y un par de subclases Perro y Gato,
  * junto con una función que sirva para imprimir el sonido que emite cada Animal.
@@ -176,7 +176,7 @@
  * /-------------------------------------------------------------------------------------------------
 
 /*
- * UNIDAD 11:
+ * UNIDAD 11: EXCEPCIONES
  * Explora el concepto de manejo de excepciones según tu lenguaje.
  * Fuerza un error en tu código, captura el error, imprime dicho error
  * y evita que el programa se detenga de manera inesperada.
@@ -197,7 +197,7 @@
 /*
  * IMPORTANTE: Sólo debes subir el fichero de código como parte del ejercicio.
  *
- * UNIDAD 12:
+ * UNIDAD 12: MANEJO DE FICHEROS
  * Desarrolla un programa capaz de crear un archivo que se llame como
  * tu usuario de GitHub y tenga la extensión .txt.
  * Añade varias líneas en ese fichero:
@@ -221,7 +221,7 @@
 /*
  * IMPORTANTE: Sólo debes subir el fichero de código como parte del ejercicio.
  *
- * UNIDAD 13:
+ * UNIDAD 13: JSON Y XML
  * Desarrolla un programa capaz de crear un archivo XML y JSON que guarde los
  * siguientes datos (haciendo uso de la sintaxis correcta en cada caso):
  * - Nombre
@@ -239,7 +239,7 @@
  * /-------------------------------------------------------------------------------------------------
 
 /*
- * UNIDAD 14:
+ * UNIDAD 14: PRUEBAS UNITARIAS
  * Crea una función que se encargue de sumar dos números y retornar
  * su resultado.
  * Crea un test, utilizando las herramientas de tu lenguaje, que sea
@@ -257,7 +257,7 @@
  * /-------------------------------------------------------------------------------------------------
 
 /*
- * UNIDAD 15:
+ * UNIDAD 15: FECHAS
  * Crea dos variables utilizando los objetos fecha (date, o semejante) de tu lenguaje:
  * - Una primera que represente la fecha (día, mes, año, hora, minuto, segundo) actual.
  * - Una segunda que represente tu fecha de nacimiento (te puedes inventar la hora).
@@ -274,8 +274,8 @@
  * (lo que se te ocurra...)
  * /-------------------------------------------------------------------------------------------------
 
- /*
- * UNIDAD 16:
+/*
+ * UNIDAD 16: ASINCRONIA
  * Utilizando tu lenguaje, crea un programa capaz de ejecutar de manera
  * asíncrona una función que tardará en finalizar un número concreto de
  * segundos parametrizables. También debes poder asignarle un nombre.
@@ -292,3 +292,21 @@
  * - Las funciones C, B y A se ejecutan en paralelo.
  * - La función D comienza su ejecución cuando las 3 anteriores han finalizado.
  * /-------------------------------------------------------------------------------------------------
+
+/*
+ * UNIDAD 17: EXPRESIONES REGULARES
+ * Utilizando tu lenguaje, explora el concepto de expresiones regulares,
+ * creando una que sea capaz de encontrar y extraer todos los números
+ * de un texto.
+ *
+ * DIFICULTAD EXTRA (opcional):
+ * Crea 3 expresiones regulares (a tu criterio) capaces de:
+ * - Validar un email.
+ * - Validar un número de teléfono.
+ * - Validar una url.
+ * /-------------------------------------------------------------------------------------------------
+
+
+
+
+
