@@ -131,4 +131,25 @@ class Pedido:
             EstadoPedido.CANCELADO: "El pedido fue cancelado."
         }
         return mensajes[self.estado]
+
+
+# Ejemplo de uso
+pedido1 = Pedido(101)
+pedido2 = Pedido(102)
+
+# Interacciones con pedidos
+print("\n-------------------------------------------\n")
+print(pedido1.descripcion_estado())
+pedido1.enviar()
+print(pedido1.descripcion_estado())
+pedido1.entregar()
+print(pedido1.descripcion_estado())
+print("\n-------------------------------------------\n")
+
+print("\n-------------------------------------------\n")
+print(pedido2.descripcion_estado())
+pedido2.cancelar()
+print(pedido2.descripcion_estado())
+pedido2.enviar()  # Intento fallido
+print("\n-------------------------------------------\n")
 # -----------------------------------------------------------------------------------
