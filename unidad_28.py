@@ -20,7 +20,7 @@
 # -----------------------------------------------------------------------------------
 # Las entidades de software (clases, modulos, funciones) deben estar abiertas para la
 # extension, pero cerradas para la modificacion. Esto significa que debemos poder
-# añadir nuevas funcionalidades sin modificar el codigo existente, solo extendiendolo.
+# añadir nuevas funcionalidades sin modificar el codigo existente, solo extendiendolo
 # -----------------------------------------------------------------------------------
 
 # -----------------------------------------------------------------------------------
